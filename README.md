@@ -8,7 +8,7 @@
 
 ## 🌍 Live Site
 
-➡️ **Visit the site:** [https://patient-plate.github.io](https://your-username.github.io)
+➡️ **Visit the site:** [https://patient-plate.github.io](https://patient-plate.github.io)
 
 ---
 
