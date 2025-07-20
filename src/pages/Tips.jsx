@@ -19,7 +19,7 @@ export default function Tips() {
       : null;
 
   if (!tips) {
-    return <p>No tips found for {disease} with {cuisine} cuisine.</p>;
+    return <p>No tips found for {disease} with {cuisine} cuisine. Use your browser's back button to return.</p>;
   }
 
 return (
