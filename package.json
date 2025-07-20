@@ -5,7 +5,7 @@
   "description": "Culturally sensitive dietary tool for chronic disease management.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview"
   },
   "dependencies": {
