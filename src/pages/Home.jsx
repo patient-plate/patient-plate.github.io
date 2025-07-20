@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
+import homeIcon from "/favicon.ico";
 import DiseaseCard from "../components/DiseaseCard";
 
 const diseases = [
@@ -21,7 +22,7 @@ export default function Home() {
     <div className="container">
       <div className="page-header">
         <Link to="/">
-          <img src="/favicon.ico" alt="Home" className="home-icon" />
+          <img src={homeIcon} alt="Home" className="home-icon" />
         </Link>
         <h1>Welcome to Patient Plate</h1>
       </div>

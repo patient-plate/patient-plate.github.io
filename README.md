@@ -50,7 +50,9 @@ Designed with cultural awareness, social determinants of health, and real-world 
    npm run dev
    ```
 
-4. Open [http://localhost:5173](http://localhost:5173) to view in your browser.
+4. Confirm the index.html only references `/src/main.jsx`, and remove any lines with referencing the `assets/` directory.
+
+5. Open [http://localhost:5173](http://localhost:5173) to view in your browser.
 
 ---
 

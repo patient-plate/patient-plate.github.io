@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate, useSearchParams, Link } from "react-router-dom";
+import homeIcon from "/favicon.ico";
 import CuisineCard from "../components/CuisineCard";
 
 const cuisines = [
@@ -27,7 +28,7 @@ export default function CuisineSelect() {
     <div className="container">
       <div className="page-header">
         <Link to="/">
-          <img src="/favicon.ico" alt="Home" className="home-icon" />
+          <img src={homeIcon} alt="Home" className="home-icon" />
         </Link>
         <h2>Select a cuisine for {disease.charAt(0).toUpperCase() + disease.slice(1)}</h2>
       </div>

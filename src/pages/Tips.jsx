@@ -1,5 +1,6 @@
 import React from "react";
 import { useSearchParams, useNavigate, Link } from "react-router-dom";
+import homeIcon from "/favicon.ico";
 import { tipsData } from "../data/tips";
 
 export default function Tips() {
@@ -25,7 +26,7 @@ return (
   <div className="container">
     <div className="page-header">
       <Link to="/">
-        <img src="/favicon.ico" alt="Home" className="home-icon" />
+        <img src={homeIcon} alt="Home" className="home-icon" />
       </Link>
       <h2>
         Dietary Tips for {disease.charAt(0).toUpperCase() + disease.slice(1)} –{" "}
