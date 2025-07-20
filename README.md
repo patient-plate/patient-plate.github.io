@@ -1,14 +1,14 @@
-# 🥗 Patient Plate
+# Patient Plate
 
 **Patient Plate** is a web-based tool that helps healthcare providers offer culturally sensitive dietary recommendations for patients with chronic diseases. Users can select a condition, choose a cuisine, and explore recipes, ingredient swaps, and general nutrition tips tailored to both.
 
-## 🚀 Live Site
+## 🖥️ Live Site
 
 🔗 [https://patient-plate.github.io](https://patient-plate.github.io)
 
 ---
 
-## 📸 Overview
+## ✈️ Overview
 
 1. **Select a Chronic Condition**
 2. **Choose a Cuisine**
@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🔧 Tech Stack
 
 - **React** (Vite)
 - **React Router**
@@ -64,64 +64,41 @@ patient-plate.github.io/
 
 ## 🧑‍💻 Local Development
 
-### 1. Install dependencies
+1. Clone the repo:
 
-```bash
-npm install
-```
+   ```bash
+   git clone https://github.com/patient-plate/patient-plate.github.io.git
+   cd patient-plate.github.io
+   ```
 
-### 2. Start development server
+2. Install dependencies:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm install
+   ```
 
-Visit: [http://localhost:5173](http://localhost:5173)
+3. Start the dev server:
 
-### 3. Build for production
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run build
-```
+4. Confirm the index.html only references `/src/main.jsx`, and remove any lines with referencing the `assets/` directory.
 
-### 4. Preview production build
-
-```bash
-npm run preview
-```
+5. Open [http://localhost:5173](http://localhost:5173) to view in your browser.
 
 ---
 
-## 🚢 Deployment to GitHub Pages
-
-### 1. Ensure `vite.config.js` includes:
-
-```js
-export default defineConfig({
-  base: "./",
-  plugins: [react()]
-});
-```
-
-### 2. Build the app
+## 🏗 Build for Production
 
 ```bash
 npm run build
 ```
 
-### 3. Commit and push to GitHub
-
-Make sure all changes (including the `/dist` folder, if deploying manually) are committed to your `main` branch.
-
-### 4. In your GitHub repository settings:
-
-- Go to **Pages**
-- Set:
-  - **Source**: `main`
-  - **Folder**: `/ (root)` (for user site like `patient-plate.github.io`)
-
-GitHub will serve your site from:  
-📍 [https://patient-plate.github.io](https://patient-plate.github.io)
+This outputs a static version of the app into the `dist/` folder.
+Copy the contents of `dist/` into the repository root (e.g., `index.html`,
+`assets/`, and `favicon.ico`). The `dist/` folder itself should **not** be
+committed.
 
 ---
 
@@ -131,7 +108,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Credits
+## 🗿 Credits
 
 Built by wiltsai and contributors.  
 Special thanks to those working to bridge culture and care through food and equity.
