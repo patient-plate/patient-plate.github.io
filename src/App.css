@@ -1,79 +1,111 @@
-/* Reset and base styles */
+/* App.css */
+
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fefefe;
   color: #333;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Center content and limit width */
+.container {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-h1, h2, h3 {
-  color: #2c3e50;
+/* Header bar */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-button {
+.header-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  flex: 1;
+}
+
+/* Card layout for options */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Card style for buttons */
+.card {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
   background-color: #f48d80;
   color: white;
   border: none;
-  border-radius: 8px;
-  padding: 10px 16px;
-  font-size: 1rem;
-  font-weight: 600;
+  border-radius: 12px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 48px;              /* fixed height */
+  line-height: 1;            /* consistent text alignment */
+  white-space: nowrap;       /* keep button text on one line */
+  width: auto;               /* dynamic width */
+  min-width: 140px;          /* optional: prevent tiny buttons */
+  transition: transform 0.15s ease;
 }
 
-button:hover {
-  background-color: #e67264;
+.card:hover {
+  transform: scale(1.05);
+  background-color: #e67668;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+
+/* Back/home button styling */
+.nav-button {
+  background-color: transparent;
+  color: #555;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
 }
 
-.button-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1.5rem;
+.nav-button:hover {
+  color: #f48d80;
 }
 
+/* Tips & list items */
 .tip-list {
-  margin-top: 1rem;
-  padding-left: 1.2rem;
+  list-style-type: disc;
+  padding-left: 1.5rem;
 }
 
-.tip-list li {
-  margin-bottom: 0.75rem;
-  line-height: 1.6;
+.tip-card {
+  margin-bottom: 1.25rem;
+  background-color: #fff6f3;
+  border-left: 4px solid #f48d80;
+  padding: 1rem;
+  border-radius: 8px;
 }
 
-.back-button {
-  background-color: #f08374aa;
-  color: white;
+.back-card {
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #fcded9; /* lighter pink */
+  color: #444;
   border: none;
   border-radius: 8px;
-  padding: 10px 16px;
-  font-weight: 600;
   cursor: pointer;
-  margin-top: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  transition: background-color 0.2s, transform 0.15s ease;
 }
 
-.page-header {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.home-icon {
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
+.back-card:hover {
+  background-color: #f8cfc6;
+  transform: scale(1.03);
 }
