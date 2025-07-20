@@ -64,3 +64,16 @@ button:hover {
   cursor: pointer;
   margin-top: 2rem;
 }
+
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}

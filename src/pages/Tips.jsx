@@ -1,5 +1,5 @@
 import React from "react";
-import { useSearchParams, useNavigate } from "react-router-dom";
+import { useSearchParams, useNavigate, Link } from "react-router-dom";
 import { tipsData } from "../data/tips";
 
 export default function Tips() {
@@ -23,10 +23,15 @@ export default function Tips() {
 
 return (
   <div className="container">
-    <h2>
-      Dietary Tips for {disease.charAt(0).toUpperCase() + disease.slice(1)} –{" "}
-      {cuisine.charAt(0).toUpperCase() + cuisine.slice(1)} Cuisine
-    </h2>
+    <div className="page-header">
+      <Link to="/">
+        <img src="/favicon.ico" alt="Home" className="home-icon" />
+      </Link>
+      <h2>
+        Dietary Tips for {disease.charAt(0).toUpperCase() + disease.slice(1)} –{" "}
+        {cuisine.charAt(0).toUpperCase() + cuisine.slice(1)} Cuisine
+      </h2>
+    </div>
     <ul className="tip-list">
       {tips.map((tip, idx) => (
         <li key={idx}>{tip}</li>
