@@ -8,7 +8,7 @@ const cuisines = [
   "mexican",
   "chinese",
   "indian",
-  "italian"
+  "mediterranean",
 ];
 
 export default function CuisineSelect() {

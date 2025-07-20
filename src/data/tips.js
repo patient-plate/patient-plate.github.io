@@ -13,6 +13,13 @@ export const tipData = {
       "Use beans as a fiber-rich protein instead of refried lard-based versions.",
       "Limit cheese and sour cream; use avocado for healthy fat instead.",
       "Grill meats (carne asada) rather than frying (chimichangas)."
+    ],
+    chinese: [
+      "When dining at restaurants, avoid high-calorie or carb-heavy appetizers like spring rolls and opt for cucumber or seaweedsalad.",
+      "Limit high-sugar sauces like sweet and sour; opt for more savory flavorings like soy sauce or oyster sauce.",
+      "Incorporate more fermented vegetables (Suan Cai)for fiber and probiotics.",
+      "Instead of traditional flour wrappers for steaming dumplings, consider using cabbage or lettuce leaves.",
+      "Be mindful when using dipping sauces, they can be common sources of hidden sugars and sodium."
     ]
     // Add more cuisines as needed
   },

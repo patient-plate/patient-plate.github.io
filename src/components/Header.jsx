@@ -9,7 +9,7 @@ export default function Header({ title }) {
         <img
           src="/favicon.ico"
           alt="Home"
-          style={{ width: "28px", cursor: "pointer" }}
+          style={{ width: "40px", cursor: "pointer" }}
         />
       </Link>
       <h2 className="header-title">{title}</h2>

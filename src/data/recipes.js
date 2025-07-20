@@ -19,6 +19,16 @@ export const recipeData = {
         title: "Black Bean Salad",
         description: "High-fiber beans tossed with tomatoes, bell peppers, lime, and cilantro. Great as a side or protein base."
       }
+    ],
+    chinese: [
+      {
+        title: "Steamed Fish with Ginger, Scallion, and Soy Sauce",
+        description: "A light, comforting dish featuring the natural sweetness of the fish. Serve over white long grain rice coooked with quinoa."
+      },
+      {
+        title: "Mapo Tofu ",
+        description: " High protein, lean tofu cooked with lean pork or beef in a spicy fermented bean sauce with lots of scallions. Serve over a small bowl of rice with a side of vegetables."
+      }
     ]
   },
   hypertension: {

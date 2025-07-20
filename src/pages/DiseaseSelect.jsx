@@ -22,7 +22,7 @@ export default function DiseaseSelect() {
     <div className="container">
       <Header title="Welcome to Patient Plate" showHomeButton={false} />
       <p>
-        Select a chronic condition below to begin exploring culturally sensitive dietary recommendations.
+        To start, select a chronic condition below.
       </p>
       <div className="card-grid">
         {diseases.map((disease) => (
