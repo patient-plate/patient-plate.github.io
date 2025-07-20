@@ -61,8 +61,9 @@ npm run build
 ```
 
 This outputs a static version of the app into the `dist/` folder.
-
-> ⚠️ For GitHub **user sites**, you do **not** push the `dist/` folder — GitHub Pages will serve the site from the root of the `main` branch.
+Copy the contents of `dist/` into the repository root (e.g., `index.html`,
+`assets/`, and `favicon.ico`). The `dist/` folder itself should **not** be
+committed.
 
 ---
 
