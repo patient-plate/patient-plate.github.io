@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams, Link } from "react-router-dom";
 import CuisineCard from "../components/CuisineCard";
 
 const cuisines = [
@@ -25,7 +25,12 @@ export default function CuisineSelect() {
 
   return (
     <div className="container">
-      <h2>Select a cuisine for {disease.charAt(0).toUpperCase() + disease.slice(1)}</h2>
+      <div className="page-header">
+        <Link to="/">
+          <img src="/favicon.ico" alt="Home" className="home-icon" />
+        </Link>
+        <h2>Select a cuisine for {disease.charAt(0).toUpperCase() + disease.slice(1)}</h2>
+      </div>
       <div className="button-grid">
         {cuisines.map(({ id, label }) => (
           <CuisineCard

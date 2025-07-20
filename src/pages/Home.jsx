@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import DiseaseCard from "../components/DiseaseCard";
 
 const diseases = [
@@ -19,7 +19,12 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>Welcome to Patient Plate</h1>
+      <div className="page-header">
+        <Link to="/">
+          <img src="/favicon.ico" alt="Home" className="home-icon" />
+        </Link>
+        <h1>Welcome to Patient Plate</h1>
+      </div>
       <p>
         Select a chronic condition below to begin exploring culturally sensitive
         dietary recommendations.
