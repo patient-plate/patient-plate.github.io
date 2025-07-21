@@ -14,7 +14,7 @@ export default function Recipes() {
 
   return (
     <div className="container">
-      <Header title="Recipes" />
+      <Header title={`Recipes for ${disease.charAt(0).toUpperCase() + disease.slice(1)} - ${cuisine.charAt(0).toUpperCase() + cuisine.slice(1)} Cuisine`} />
       {recipes.map((r, idx) => (
         <div key={idx} className="tip-card">
           <h3>{r.title}</h3>

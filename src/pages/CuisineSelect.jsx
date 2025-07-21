@@ -22,7 +22,7 @@ export default function CuisineSelect() {
 
   return (
     <div className="container">
-      <Header title="Select a Cuisine" />
+      <Header title={`Select a Cuisine for ${disease.charAt(0).toUpperCase() + disease.slice(1)}`} />
       <div className="card-grid">
         {cuisines.map((cuisine) => (
           <button

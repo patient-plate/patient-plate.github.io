@@ -13,7 +13,7 @@ export default function GeneralTips() {
 
   return (
     <div className="container">
-      <Header title="General Tips" />
+      <Header title={`General Tips for ${disease.charAt(0).toUpperCase() + disease.slice(1)} - ${cuisine.charAt(0).toUpperCase() + cuisine.slice(1)} Cuisine`} />
       <ul className="tip-list">
         {tips.map((tip, idx) => (
           <li key={idx}>{tip}</li>

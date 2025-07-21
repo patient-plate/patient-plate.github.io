@@ -109,3 +109,9 @@ body {
   background-color: #f8cfc6;
   transform: scale(1.03);
 }
+
+.header-subtitle {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.2rem;
+}

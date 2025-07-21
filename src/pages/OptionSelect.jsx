@@ -15,7 +15,7 @@ export default function OptionSelect() {
 
   return (
     <div className="container">
-      <Header title="Choose Information Type" />
+      <Header title={`Choose Information Type for ${disease.charAt(0).toUpperCase() + disease.slice(1)} - ${cuisine.charAt(0).toUpperCase() + cuisine.slice(1)} Cuisine`} />
       <div className="card-grid">
         <button className="card" onClick={() => handleClick("recipes")}>Recipes</button>
         <button className="card" onClick={() => handleClick("swaps")}>Ingredient Swaps</button>

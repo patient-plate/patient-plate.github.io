@@ -13,7 +13,7 @@ export default function IngredientSwaps() {
 
   return (
     <div className="container">
-      <Header title="Ingredient Swaps" />
+      <Header title={`Ingredient Swaps for ${disease.charAt(0).toUpperCase() + disease.slice(1)} - ${cuisine.charAt(0).toUpperCase() + cuisine.slice(1)} Cuisine`} />
       <ul className="tip-list">
         {swaps.map((s, idx) => (
           <li key={idx}><strong>{s.original}</strong> → {s.swap}</li>

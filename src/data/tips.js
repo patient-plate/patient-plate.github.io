@@ -15,7 +15,7 @@ export const tipData = {
       "Grill meats (carne asada) rather than frying (chimichangas)."
     ],
     chinese: [
-      "When dining at restaurants, avoid high-calorie or carb-heavy appetizers like spring rolls and opt for cucumber or seaweedsalad.",
+      "When dining at restaurants, avoid high-calorie or carb-heavy appetizers like spring rolls and opt for cucumber or seaweed salad.",
       "Limit high-sugar sauces like sweet and sour; opt for more savory flavorings like soy sauce or oyster sauce.",
       "Incorporate more fermented vegetables (Suan Cai)for fiber and probiotics.",
       "Instead of traditional flour wrappers for steaming dumplings, consider using cabbage or lettuce leaves.",

@@ -20,7 +20,7 @@ export default function DiseaseSelect() {
 
   return (
     <div className="container">
-      <Header title="Welcome to Patient Plate" showHomeButton={false} />
+      <Header title="Welcome to Patient Plate" />
       <p>
         To start, select a chronic condition below.
       </p>
