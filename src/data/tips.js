@@ -12,7 +12,7 @@ export const tipData = {
       "Avoid sugary drinks like horchata — go for water or unsweetened teas.",
       "Use beans as a fiber-rich protein instead of refried lard-based versions.",
       "Limit cheese and sour cream; use avocado for healthy fat instead.",
-      "Grill meats (carne asada) rather than frying (chimichangas)."
+      "Cook meats on the grill (pollo asado) rather than in lard (carnitas)."
     ],
     chinese: [
       "When dining at restaurants, avoid high-calorie or carb-heavy appetizers like spring rolls and opt for cucumber or seaweed salad.",
