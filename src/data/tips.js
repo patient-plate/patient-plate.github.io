@@ -3,7 +3,7 @@ export const tipData = {
     korean: [
       "Limit white rice; opt for mixed grains or brown rice instead.",
       "Avoid sugary sauces like sweet gochujang — use reduced-sugar versions.",
-      "Incorporate more fermented vegetables like kimchi for fiber.",
+      "Incorporate more fermented vegetables like kimchi for more fiber.",
       "Choose grilled proteins (bulgogi) over fried (fried mandu).",
       "Control portion sizes of high-carb dishes like japchae."
     ],
@@ -32,6 +32,11 @@ export const tipData = {
       "Reduce takeout frequency — home-cooked versions allow better control."
     ]
     // Add more cuisines as needed
-  }
+  },
   // Add more diseases as needed
+  hypertension: {
+    korean: [
+      "Limit soy sauce — choose low-sodium versions or dilute with water."
+    ]
+  }
 };
