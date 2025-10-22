@@ -92,13 +92,14 @@ patient-plate.github.io/
 ## 🏗 Build for Production
 
 ```bash
-npm run build
+./build.sh
 ```
 
-This outputs a static version of the app into the `dist/` folder.
-Copy the contents of `dist/` into the repository root (e.g., `index.html`,
-`assets/`, and `favicon.ico`). The `dist/` folder itself should **not** be
-committed.
+This outputs a static version of the app into the `dist/` folder,
+copies the contents of `dist/` into the repository root (e.g., `index.html`,
+`assets/`, and `favicon.ico`), and removes the `dist/` folder.
+
+Once the changes are pushed, the new site is automatically deployed.
 
 ---
 

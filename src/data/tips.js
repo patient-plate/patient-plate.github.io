@@ -30,13 +30,12 @@ export const tipData = {
       "Use more garlic, ginger, and vinegar instead of salty flavorings.",
       "Add vegetables to balance high-sodium dishes like hot pot broths.",
       "Reduce takeout frequency — home-cooked versions allow better control."
-    ]
-    // Add more cuisines as needed
-  },
-  // Add more diseases as needed
-  hypertension: {
+    ],
     korean: [
       "Limit soy sauce — choose low-sodium versions or dilute with water."
     ]
+    // Add more cuisines as needed
   }
+  // Add more diseases as needed
+  
 };
