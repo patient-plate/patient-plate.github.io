@@ -23,11 +23,11 @@ export const recipeData = {
     chinese: [
       {
         title: "Steamed Fish with Ginger, Scallion, and Soy Sauce",
-        description: "A light, comforting dish featuring the natural sweetness of the fish. Serve over white long grain rice coooked with quinoa."
+        description: "A light, comforting dish featuring the natural sweetness of the fish. Serve over white long grain rice coooked with quinoa and a side of steamed vegetables."
       },
       {
         title: "Mapo Tofu ",
-        description: " High protein, lean tofu cooked with lean pork or beef in a spicy fermented bean sauce with lots of scallions. Serve over a small bowl of rice with a side of vegetables."
+        description: " A high protein, addictive dish featuring cubed tofu cooked with lean pork or beef in a spicy fermented bean sauce with lots of scallions. Serve over a small bowl of rice with a side of vegetables."
       }
     ]
   },
